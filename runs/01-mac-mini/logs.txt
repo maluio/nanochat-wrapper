@@ -1,0 +1,570 @@
+Installed nanochat-0.1.0
+Reset report and wrote header to /Users/dev/.cache/nanochat/report/header.md
+Downloading 4 shards using 4 workers...
+Target directory: /Users/dev/.cache/nanochat/base_data
+
+Skipping /Users/dev/.cache/nanochat/base_data/shard_00000.parquet (already exists)
+Skipping /Users/dev/.cache/nanochat/base_data/shard_00001.parquet (already exists)
+Skipping /Users/dev/.cache/nanochat/base_data/shard_00002.parquet (already exists)
+Skipping /Users/dev/.cache/nanochat/base_data/shard_00003.parquet (already exists)
+Done! Downloaded: 4/4 shards to /Users/dev/.cache/nanochat/base_data
+max_chars: 1,000,000,000
+doc_cap: 10,000
+vocab_size: 65,536
+2025-11-15 10:30:09,155 - rustbpe - INFO - Processing sequences from iterator (buffer_size: 8192)
+2025-11-15./runcpu.sh
+cd-ing into /Users/dev/Documents/proj/dev/nanochat-wrapper/runs/01-mac-mini/../../nanochat
+Resolved 91 packages in 12ms
+Uninstalled 1 package in 1ms
+Installed 1 package in 2ms
+ ~ nanochat==0.1.0 (from file:///Users/dev/Documents/proj/dev/nanochat-wrapper/nanochat)
+📦 Including license file `LICENSE`
+🔗 Found pyo3 bindings
+🐍 Found CPython 3.10 at /Users/dev/Documents/proj/dev/nanochat-wrapper/nanochat/.venv/bin/python
+📡 Using build options bindings from pyproject.toml
+Audited 13 packages in 13ms
+    Finished `release` profile [optimized] target(s) in 0.04s
+📦 Built wheel for CPython 3.10 to /var/folders/0g/t_6mmvk55l7gtffx482x5nn00000gn/T/.tmpkMfYWV/nanochat-0.1.0-cp310-cp310-macosx_11_0_arm64.whl
+✏️ Setting installed package as editable
+🛠 10:30:19,930 - rustbpe - INFO - Processed 159744 sequences total, 1052765 unique
+2025-11-15 10:30:19,951 - rustbpe - INFO - Starting BPE training: 65271 merges to compute
+2025-11-15 10:30:19,951 - rustbpe - INFO - Computing initial pair counts from 1052765 unique sequences
+2025-11-15 10:30:20,684 - rustbpe - INFO - Building heap with 15656 unique pairs
+2025-11-15 10:30:20,685 - rustbpe - INFO - Starting merge loop
+2025-11-15 10:30:21,693 - rustbpe - INFO - Progress: 1% (653/65271 merges) - Last merge: (585, 268) -> 908 (frequency: 76699)
+2025-11-15 10:30:21,824 - rustbpe - INFO - Progress: 2% (1306/65271 merges) - Last merge: (304, 317) -> 1561 (frequency: 33101)
+2025-11-15 10:30:21,902 - rustbpe - INFO - Progress: 3% (1959/65271 merges) - Last merge: (964, 1445) -> 2214 (frequency: 20182)
+2025-11-15 10:30:21,976 - rustbpe - INFO - Progress: 4% (2611/65271 merges) - Last merge: (423, 97) -> 2866 (frequency: 13952)
+2025-11-15 10:30:22,039 - rustbpe - INFO - Progress: 5% (3264/65271 merges) - Last merge: (277, 1322) -> 3519 (frequency: 10477)
+2025-11-15 10:30:22,089 - rustbpe - INFO - Progress: 6% (3917/65271 merges) - Last merge: (2427, 280) -> 4172 (frequency: 8205)
+2025-11-15 10:30:22,130 - rustbpe - INFO - Progress: 7% (4569/65271 merges) - Last merge: (3905, 493) -> 4824 (frequency: 6646)
+2025-11-15 10:30:22,181 - rustbpe - INFO - Progress: 8% (5222/65271 merges) - Last merge: (725, 101) -> 5477 (frequency: 5544)
+2025-11-15 10:30:22,214 - rustbpe - INFO - Progress: 9% (5875/65271 merges) - Last merge: (1165, 910) -> 6130 (frequency: 4681)
+2025-11-15 10:30:22,252 - rustbpe - INFO - Progress: 10% (6528/65271 merges) - Last merge: (5910, 1686) -> 6783 (frequency: 4015)
+2025-11-15 10:30:22,281 - rustbpe - INFO - Progress: 11% (7180/65271 merges) - Last merge: (5127, 274) -> 7435 (frequency: 3493)
+2025-11-15 10:30:22,308 - rustbpe - INFO - Progress: 12% (7833/65271 merges) - Last merge: (4637, 390) -> 8088 (frequency: 3054)
+2025-11-15 10:30:22,331 - rustbpe - INFO - Progress: 13% (8486/65271 merges) - Last merge: (2389, 1780) -> 8741 (frequency: 2698)
+2025-11-15 10:30:22,360 - rustbpe - INFO - Progress: 14% (9138/65271 merges) - Last merge: (334, 522) -> 9393 (frequency: 2406)
+2025-11-15 10:30:22,383 - rustbpe - INFO - Progress: 15% (9791/65271 merges) - Last merge: (2767, 1333) -> 10046 (frequency: 2164)
+2025-11-15 10:30:22,405 - rustbpe - INFO - Progress: 16% (10444/65271 merges) - Last merge: (67, 78) -> 10699 (frequency: 1957)
+2025-11-15 10:30:22,422 - rustbpe - INFO - Progress: 17% (11097/65271 merges) - Last merge: (2293, 3676) -> 11352 (frequency: 1774)
+2025-11-15 10:30:22,451 - rustbpe - INFO - Progress: 18% (11749/65271 merges) - Last merge: (776, 1360) -> 12004 (frequency: 1619)
+2025-11-15 10:30:22,467 - rustbpe - INFO - Progress: 19% (12402/65271 merges) - Last merge: (1308, 2271) -> 12657 (frequency: 1492)
+2025-11-15 10:30:22,483 - rustbpe - INFO - Progress: 20% (13055/65271 merges) - Last merge: (528, 973) -> 13310 (frequency: 1378)
+2025-11-15 10:30:22,503 - rustbpe - INFO - Progress: 21% (13707/65271 merges) - Last merge: (410, 2857) -> 13962 (frequency: 1285)
+2025-11-15 10:30:22,527 - rustbpe - INFO - Progress: 22% (14360/65271 merges) - Last merge: (1112, 480) -> 14615 (frequency: 1191)
+2025-11-15 10:30:22,540 - rustbpe - INFO - Progress: 23% (15013/65271 merges) - Last merge: (3445, 2083) -> 15268 (frequency: 1113)
+2025-11-15 10:30:22,560 - rustbpe - INFO - Progress: 24% (15666/65271 merges) - Last merge: (1476, 926) -> 15921 (frequency: 1040)
+2025-11-15 10:30:22,582 - rustbpe - INFO - Progress: 25% (16318/65271 merges) - Last merge: (2290, 2290) -> 16573 (frequency: 972)
+2025-11-15 10:30:22,604 - rustbpe - INFO - Progress: 26% (16971/65271 merges) - Last merge: (10185, 368) -> 17226 (frequency: 911)
+2025-11-15 10:30:22,618 - rustbpe - INFO - Progress: 27% (17624/65271 merges) - Last merge: (3107, 16700) -> 17879 (frequency: 860)
+2025-11-15 10:30:22,635 - rustbpe - INFO - Progress: 28% (18276/65271 merges) - Last merge: (7518, 112) -> 18531 (frequency: 811)
+2025-11-15 10:30:22,648 - rustbpe - INFO - Progress: 29% (18929/65271 merges) - Last merge: (13105, 85) -> 19184 (frequency: 765)
+2025-11-15 10:30:22,665 - rustbpe - INFO - Progress: 30% (19582/65271 merges) - Last merge: (753, 341) -> 19837 (frequency: 723)
+2025-11-15 10:30:22,676 - rustbpe - INFO - Progress: 31% (20235/65271 merges) - Last merge: (1771, 889) -> 20490 (frequency: 685)
+2025-11-15 10:30:22,685 - rustbpe - INFO - Progress: 32% (20887/65271 merges) - Last merge: (1518, 282) -> 21142 (frequency: 648)
+2025-11-15 10:30:22,698 - rustbpe - INFO - Progress: 33% (21540/65271 merges) - Last merge: (5720, 97) -> 21795 (frequency: 615)
+2025-11-15 10:30:22,709 - rustbpe - INFO - Progress: 34% (22193/65271 merges) - Last merge: (1057, 794) -> 22448 (frequency: 583)
+2025-11-15 10:30:22,721 - rustbpe - INFO - Progress: 35% (22845/65271 merges) - Last merge: (12147, 21803) -> 23100 (frequency: 556)
+2025-11-15 10:30:22,730 - rustbpe - INFO - Progress: 36% (23498/65271 merges) - Last merge: (441, 513) -> 23753 (frequency: 529)
+2025-11-15 10:30:22,740 - rustbpe - INFO - Progress: 37% (24151/65271 merges) - Last merge: (10015, 115) -> 24406 (frequency: 505)
+2025-11-15 10:30:22,749 - rustbpe - INFO - Progress: 38% (24803/65271 merges) - Last merge: (8950, 105) -> 25058 (frequency: 481)
+2025-11-15 10:30:22,761 - rustbpe - INFO - Progress: 39% (25456/65271 merges) - Last merge: (1036, 21160) -> 25711 (frequency: 460)
+2025-11-15 10:30:22,772 - rustbpe - INFO - Progress: 40% (26109/65271 merges) - Last merge: (2364, 426) -> 26364 (frequency: 441)
+2025-11-15 10:30:22,782 - rustbpe - INFO - Progress: 41% (26762/65271 merges) - Last merge: (441, 21354) -> 27017 (frequency: 422)
+2025-11-15 10:30:22,794 - rustbpe - INFO - Progress: 42% (27414/65271 merges) - Last merge: (273, 709) -> 27669 (frequency: 404)
+2025-11-15 10:30:22,810 - rustbpe - INFO - Progress: 43% (28067/65271 merges) - Last merge: (6037, 282) -> 28322 (frequency: 388)
+2025-11-15 10:30:22,821 - rustbpe - INFO - Progress: 44% (28720/65271 merges) - Last merge: (419, 28734) -> 28975 (frequency: 372)
+2025-11-15 10:30:22,829 - rustbpe - INFO - Progress: 45% (29372/65271 merges) - Last merge: (73, 75) -> 29627 (frequency: 358)
+2025-11-15 10:30:22,838 - rustbpe - INFO - Progress: 46% (30025/65271 merges) - Last merge: (440, 378) -> 30280 (frequency: 345)
+2025-11-15 10:30:22,845 - rustbpe - INFO - Progress: 47% (30678/65271 merges) - Last merge: (336, 600) -> 30933 (frequency: 332)
+2025-11-15 10:30:22,856 - rustbpe - INFO - Progress: 48% (31331/65271 merges) - Last merge: (10680, 2822) -> 31586 (frequency: 320)
+2025-11-15 10:30:22,865 - rustbpe - INFO - Progress: 49% (31983/65271 merges) - Last merge: (408, 5504) -> 32238 (frequency: 308)
+2025-11-15 10:30:22,873 - rustbpe - INFO - Progress: 50% (32636/65271 merges) - Last merge: (301, 471) -> 32891 (frequency: 297)
+2025-11-15 10:30:22,879 - rustbpe - INFO - Progress: 51% (33289/65271 merges) - Last merge: (408, 1266) -> 33544 (frequency: 287)
+2025-11-15 10:30:22,888 - rustbpe - INFO - Progress: 52% (33941/65271 merges) - Last merge: (2824, 1391) -> 34196 (frequency: 278)
+2025-11-15 10:30:22,898 - rustbpe - INFO - Progress: 53% (34594/65271 merges) - Last merge: (351, 21141) -> 34849 (frequency: 269)
+2025-11-15 10:30:22,905 - rustbpe - INFO - Progress: 54% (35247/65271 merges) - Last merge: (2565, 760) -> 35502 (frequency: 261)
+2025-11-15 10:30:22,911 - rustbpe - INFO - Progress: 55% (35900/65271 merges) - Last merge: (497, 31625) -> 36155 (frequency: 252)
+2025-11-15 10:30:22,927 - rustbpe - INFO - Progress: 56% (36552/65271 merges) - Last merge: (377, 13462) -> 36807 (frequency: 244)
+2025-11-15 10:30:22,934 - rustbpe - INFO - Progress: 57% (37205/65271 merges) - Last merge: (70, 369) -> 37460 (frequency: 236)
+2025-11-15 10:30:22,941 - rustbpe - INFO - Progress: 58% (37858/65271 merges) - Last merge: (697, 22905) -> 38113 (frequency: 229)
+2025-11-15 10:30:22,953 - rustbpe - INFO - Progress: 59% (38510/65271 merges) - Last merge: (1307, 756) -> 38765 (frequency: 222)
+2025-11-15 10:30:22,963 - rustbpe - INFO - Progress: 60% (39163/65271 merges) - Last merge: (295, 1092) -> 39418 (frequency: 215)
+2025-11-15 10:30:22,971 - rustbpe - INFO - Progress: 61% (39816/65271 merges) - Last merge: (109, 1071) -> 40071 (frequency: 209)
+2025-11-15 10:30:22,978 - rustbpe - INFO - Progress: 62% (40469/65271 merges) - Last merge: (36236, 6977) -> 40724 (frequency: 204)
+2025-11-15 10:30:22,986 - rustbpe - INFO - Progress: 63% (41121/65271 merges) - Last merge: (265, 3604) -> 41376 (frequency: 197)
+2025-11-15 10:30:22,994 - rustbpe - INFO - Progress: 64% (41774/65271 merges) - Last merge: (1079, 121) -> 42029 (frequency: 192)
+2025-11-15 10:30:23,000 - rustbpe - INFO - Progress: 65% (42427/65271 merges) - Last merge: (74, 3677) -> 42682 (frequency: 186)
+2025-11-15 10:30:23,006 - rustbpe - INFO - Progress: 66% (43079/65271 merges) - Last merge: (116, 519) -> 43334 (frequency: 181)
+2025-11-15 10:30:23,014 - rustbpe - INFO - Progress: 67% (43732/65271 merges) - Last merge: (230, 151) -> 43987 (frequency: 176)
+2025-11-15 10:30:23,020 - rustbpe - INFO - Progress: 68% (44385/65271 merges) - Last merge: (19089, 36962) -> 44640 (frequency: 172)
+2025-11-15 10:30:23,026 - rustbpe - INFO - Progress: 69% (45037/65271 merges) - Last merge: (71, 4462) -> 45292 (frequency: 167)
+2025-11-15 10:30:23,034 - rustbpe - INFO - Progress: 70% (45690/65271 merges) - Last merge: (440, 263) -> 45945 (frequency: 163)
+2025-11-15 10:30:23,041 - rustbpe - INFO - Progress: 71% (46343/65271 merges) - Last merge: (1192, 6834) -> 46598 (frequency: 159)
+2025-11-15 10:30:23,046 - rustbpe - INFO - Progress: 72% (46996/65271 merges) - Last merge: (351, 25626) -> 47251 (frequency: 155)
+2025-11-15 10:30:23,051 - rustbpe - INFO - Progress: 73% (47648/65271 merges) - Last merge: (105, 2742) -> 47903 (frequency: 151)
+2025-11-15 10:30:23,056 - rustbpe - INFO - Progress: 74% (48301/65271 merges) - Last merge: (4522, 595) -> 48556 (frequency: 148)
+2025-11-15 10:30:23,060 - rustbpe - INFO - Progress: 75% (48954/65271 merges) - Last merge: (84, 2127) -> 49209 (frequency: 144)
+2025-11-15 10:30:23,065 - rustbpe - INFO - Progress: 76% (49606/65271 merges) - Last merge: (3904, 265) -> 49861 (frequency: 141)
+2025-11-15 10:30:23,070 - rustbpe - INFO - Progress: 77% (50259/65271 merges) - Last merge: (21122, 465) -> 50514 (frequency: 138)
+2025-11-15 10:30:23,074 - rustbpe - INFO - Progress: 78% (50912/65271 merges) - Last merge: (63, 93) -> 51167 (frequency: 134)
+2025-11-15 10:30:23,079 - rustbpe - INFO - Progress: 79% (51565/65271 merges) - Last merge: (68, 14318) -> 51820 (frequency: 131)
+2025-11-15 10:30:23,083 - rustbpe - INFO - Progress: 80% (52217/65271 merges) - Last merge: (9321, 30574) -> 52472 (frequency: 129)
+2025-11-15 10:30:23,089 - rustbpe - INFO - Progress: 81% (52870/65271 merges) - Last merge: (2295, 1385) -> 53125 (frequency: 126)
+2025-11-15 10:30:23,094 - rustbpe - INFO - Progress: 82% (53523/65271 merges) - Last merge: (283, 2833) -> 53778 (frequency: 123)
+2025-11-15 10:30:23,098 - rustbpe - INFO - Progress: 83% (54175/65271 merges) - Last merge: (28288, 117) -> 54430 (frequency: 121)
+2025-11-15 10:30:23,104 - rustbpe - INFO - Progress: 84% (54828/65271 merges) - Last merge: (8035, 1514) -> 55083 (frequency: 118)
+2025-11-15 10:30:23,109 - rustbpe - INFO - Progress: 85% (55481/65271 merges) - Last merge: (401, 885) -> 55736 (frequency: 115)
+2025-11-15 10:30:23,114 - rustbpe - INFO - Progress: 86% (56134/65271 merges) - Last merge: (6513, 276) -> 56389 (frequency: 113)
+2025-11-15 10:30:23,119 - rustbpe - INFO - Progress: 87% (56786/65271 merges) - Last merge: (309, 399) -> 57041 (frequency: 110)
+2025-11-15 10:30:23,125 - rustbpe - INFO - Progress: 88% (57439/65271 merges) - Last merge: (1996, 7066) -> 57694 (frequency: 108)
+2025-11-15 10:30:23,129 - rustbpe - INFO - Progress: 89% (58092/65271 merges) - Last merge: (6539, 1271) -> 58347 (frequency: 106)
+2025-11-15 10:30:23,134 - rustbpe - INFO - Progress: 90% (58744/65271 merges) - Last merge: (14320, 8196) -> 58999 (frequency: 104)
+2025-11-15 10:30:23,139 - rustbpe - INFO - Progress: 91% (59397/65271 merges) - Last merge: (43234, 115) -> 59652 (frequency: 102)
+2025-11-15 10:30:23,144 - rustbpe - INFO - Progress: 92% (60050/65271 merges) - Last merge: (95, 112) -> 60305 (frequency: 99)
+2025-11-15 10:30:23,149 - rustbpe - INFO - Progress: 93% (60703/65271 merges) - Last merge: (34591, 8319) -> 60958 (frequency: 98)
+2025-11-15 10:30:23,153 - rustbpe - INFO - Progress: 94% (61355/65271 merges) - Last merge: (24689, 687) -> 61610 (frequency: 96)
+2025-11-15 10:30:23,159 - rustbpe - INFO - Progress: 95% (62008/65271 merges) - Last merge: (6562, 12626) -> 62263 (frequency: 94)
+2025-11-15 10:30:23,164 - rustbpe - INFO - Progress: 96% (62661/65271 merges) - Last merge: (483, 8391) -> 62916 (frequency: 92)
+2025-11-15 10:30:23,167 - rustbpe - INFO - Progress: 97% (63313/65271 merges) - Last merge: (40503, 2715) -> 63568 (frequency: 91)
+2025-11-15 10:30:23,172 - rustbpe - INFO - Progress: 98% (63966/65271 merges) - Last merge: (3946, 294) -> 64221 (frequency: 89)
+2025-11-15 10:30:23,178 - rustbpe - INFO - Progress: 99% (64619/65271 merges) - Last merge: (354, 399) -> 64874 (frequency: 87)
+2025-11-15 10:30:23,181 - rustbpe - INFO - Progress: 100% (65271/65271 merges) - Last merge: (25707, 2583) -> 65526 (frequency: 86)
+2025-11-15 10:30:23,181 - rustbpe - INFO - Finished training: 65271 merges completed
+Training time: 14.10s
+Saved tokenizer encoding to /Users/dev/.cache/nanochat/tokenizer/tokenizer.pkl
+Saved token_bytes to /Users/dev/.cache/nanochat/tokenizer/token_bytes.pt
+
+Vocab sizes:
+GPT-2: 50257
+GPT-4: 100277
+Ours: 65536
+
+Comparison with GPT-2:
+===============================================================================================
+Text Type  Bytes    GPT-2           Ours            Relative     Better
+                    Tokens  Ratio   Tokens  Ratio   Diff %
+-----------------------------------------------------------------------------------------------
+news       1819     404     4.50    375     4.85       +7.2%     Ours
+korean     893      745     1.20    731     1.22       +1.9%     Ours
+code       1259     576     2.19    494     2.55      +14.2%     Ours
+math       1834     936     1.96    971     1.89       -3.7%     GPT-2
+science    1112     260     4.28    227     4.90      +12.7%     Ours
+fwe-train  4208518  900364  4.67    856776  4.91       +4.8%     Ours
+fwe-val    4400098  954009  4.61    908625  4.84       +4.8%     Ours
+
+Comparison with GPT-4:
+===============================================================================================
+Text Type  Bytes    GPT-4           Ours            Relative     Better
+                    Tokens  Ratio   Tokens  Ratio   Diff %
+-----------------------------------------------------------------------------------------------
+news       1819     387     4.70    375     4.85       +3.1%     Ours
+korean     893      364     2.45    731     1.22     -100.8%     GPT-4
+code       1259     309     4.07    494     2.55      -59.9%     GPT-4
+math       1834     832     2.20    971     1.89      -16.7%     GPT-4
+science    1112     249     4.47    227     4.90       +8.8%     Ours
+fwe-train  4208518  874799  4.81    856776  4.91       +2.1%     Ours
+fwe-val    4400098  927977  4.74    908625  4.84       +2.1%     Ours
+PRETRAINING
+
+                                                       █████                █████
+                                                      ░░███                ░░███
+     ████████    ██████   ████████    ██████   ██████  ░███████    ██████  ███████
+    ░░███░░███  ░░░░░███ ░░███░░███  ███░░███ ███░░███ ░███░░███  ░░░░░███░░░███░
+     ░███ ░███   ███████  ░███ ░███ ░███ ░███░███ ░░░  ░███ ░███   ███████  ░███
+     ░███ ░███  ███░░███  ░███ ░███ ░███ ░███░███  ███ ░███ ░███  ███░░███  ░███ ███
+     ████ █████░░████████ ████ █████░░██████ ░░██████  ████ █████░░███████  ░░█████
+    ░░░░ ░░░░░  ░░░░░░░░ ░░░░ ░░░░░  ░░░░░░   ░░░░░░  ░░░░ ░░░░░  ░░░░░░░░   ░░░░░
+
+Overriding: depth = 2
+Overriding: max_seq_len = 512
+Overriding: device_batch_size = 1
+Overriding: total_batch_size = 512
+Overriding: eval_every = 50
+Overriding: eval_tokens = 2048
+Overriding: core_metric_every = 50
+Overriding: core_metric_max_per_task = 11
+Overriding: sample_every = 50
+Overriding: num_iterations = 50
+Autodetected device type: mps
+2025-11-15 10:30:26,969 - nanochat.common - INFO - Distributed world size: 1
+Vocab size: 65,536
+num_layers: 2
+model_dim: 128
+num_heads: 1
+num_kv_heads: 1
+Tokens / micro-batch / rank: 1 x 512 = 512
+Tokens / micro-batch: 512
+Total batch size 512 => gradient accumulation steps: 1
+Number of parameters: 17,170,432
+Estimated FLOPs per token: 5.426381e+07
+Using user-provided number of iterations: 50
+Total number of training tokens: 25,600
+Tokens : Params ratio: 0.00
+Total training FLOPs estimate: 1.389153e+12
+Scaling the LR for the AdamW parameters ∝1/√(128/768) = 2.449490
+Step 00000 | Validation bpb: 3.2987
+step 00000/00050 (0.00%) | loss: 11.090355 | grad norm: 0.5776 | lrm: 1.00 | dt: 596.21ms | tok/sec: 858 | mfu: 0.00 | total time: 0.00m
+step 00001/00050 (2.00%) | loss: 11.025898 | grad norm: 1.1868 | lrm: 1.00 | dt: 39.44ms | tok/sec: 12,982 | mfu: 0.07 | total time: 0.00m
+step 00002/00050 (4.00%) | loss: 10.877698 | grad norm: 2.0690 | lrm: 1.00 | dt: 33.63ms | tok/sec: 15,226 | mfu: 0.08 | total time: 0.00m
+step 00003/00050 (6.00%) | loss: 10.833798 | grad norm: 2.4515 | lrm: 1.00 | dt: 34.03ms | tok/sec: 15,044 | mfu: 0.08 | total time: 0.00m
+step 00004/00050 (8.00%) | loss: 10.676041 | grad norm: 3.2973 | lrm: 1.00 | dt: 33.93ms | tok/sec: 15,088 | mfu: 0.08 | total time: 0.00m
+step 00005/00050 (10.00%) | loss: 10.430362 | grad norm: 3.5836 | lrm: 1.00 | dt: 34.30ms | tok/sec: 14,925 | mfu: 0.08 | total time: 0.00m
+step 00006/00050 (12.00%) | loss: 10.154920 | grad norm: 3.6189 | lrm: 1.00 | dt: 34.27ms | tok/sec: 14,938 | mfu: 0.08 | total time: 0.00m
+step 00007/00050 (14.00%) | loss: 10.093539 | grad norm: 3.7171 | lrm: 1.00 | dt: 34.83ms | tok/sec: 14,698 | mfu: 0.08 | total time: 0.00m
+step 00008/00050 (16.00%) | loss: 9.941825 | grad norm: 3.8016 | lrm: 1.00 | dt: 34.79ms | tok/sec: 14,715 | mfu: 0.08 | total time: 0.00m
+step 00009/00050 (18.00%) | loss: 9.751544 | grad norm: 2.9839 | lrm: 1.00 | dt: 35.14ms | tok/sec: 14,570 | mfu: 0.08 | total time: 0.00m
+step 00010/00050 (20.00%) | loss: 9.577639 | grad norm: 2.8271 | lrm: 1.00 | dt: 35.61ms | tok/sec: 14,379 | mfu: 0.08 | total time: 0.00m
+step 00011/00050 (22.00%) | loss: 9.401123 | grad norm: 3.0174 | lrm: 1.00 | dt: 36.06ms | tok/sec: 14,197 | mfu: 0.08 | total time: 0.00m
+step 00012/00050 (24.00%) | loss: 9.165851 | grad norm: 2.8287 | lrm: 1.00 | dt: 36.38ms | tok/sec: 14,075 | mfu: 0.08 | total time: 0.00m
+step 00013/00050 (26.00%) | loss: 9.085605 | grad norm: 4.0992 | lrm: 1.00 | dt: 36.29ms | tok/sec: 14,109 | mfu: 0.08 | total time: 0.00m
+step 00014/00050 (28.00%) | loss: 9.017435 | grad norm: 4.2466 | lrm: 1.00 | dt: 36.00ms | tok/sec: 14,224 | mfu: 0.08 | total time: 0.00m
+step 00015/00050 (30.00%) | loss: 9.004487 | grad norm: 4.8387 | lrm: 1.00 | dt: 35.75ms | tok/sec: 14,323 | mfu: 0.08 | total time: 0.00m
+step 00016/00050 (32.00%) | loss: 8.859183 | grad norm: 1.6777 | lrm: 1.00 | dt: 35.83ms | tok/sec: 14,288 | mfu: 0.08 | total time: 0.00m
+step 00017/00050 (34.00%) | loss: 8.812158 | grad norm: 2.1852 | lrm: 1.00 | dt: 36.36ms | tok/sec: 14,082 | mfu: 0.08 | total time: 0.00m
+step 00018/00050 (36.00%) | loss: 8.690325 | grad norm: 2.6575 | lrm: 1.00 | dt: 35.62ms | tok/sec: 14,373 | mfu: 0.08 | total time: 0.00m
+step 00019/00050 (38.00%) | loss: 8.676697 | grad norm: 3.9317 | lrm: 1.00 | dt: 35.25ms | tok/sec: 14,526 | mfu: 0.08 | total time: 0.01m
+step 00020/00050 (40.00%) | loss: 8.693324 | grad norm: 3.9044 | lrm: 1.00 | dt: 35.53ms | tok/sec: 14,409 | mfu: 0.08 | total time: 0.01m
+step 00021/00050 (42.00%) | loss: 8.614559 | grad norm: 1.7928 | lrm: 1.00 | dt: 35.47ms | tok/sec: 14,434 | mfu: 0.08 | total time: 0.01m
+step 00022/00050 (44.00%) | loss: 8.614697 | grad norm: 3.1142 | lrm: 1.00 | dt: 35.75ms | tok/sec: 14,320 | mfu: 0.08 | total time: 0.01m
+step 00023/00050 (46.00%) | loss: 8.600197 | grad norm: 3.2966 | lrm: 1.00 | dt: 36.41ms | tok/sec: 14,061 | mfu: 0.08 | total time: 0.01m
+step 00024/00050 (48.00%) | loss: 8.538558 | grad norm: 2.1268 | lrm: 1.00 | dt: 36.59ms | tok/sec: 13,992 | mfu: 0.08 | total time: 0.01m
+step 00025/00050 (50.00%) | loss: 8.428791 | grad norm: 3.9118 | lrm: 1.00 | dt: 36.15ms | tok/sec: 14,165 | mfu: 0.08 | total time: 0.01m
+step 00026/00050 (52.00%) | loss: 8.368740 | grad norm: 2.1263 | lrm: 1.00 | dt: 35.57ms | tok/sec: 14,393 | mfu: 0.08 | total time: 0.01m
+step 00027/00050 (54.00%) | loss: 8.296736 | grad norm: 2.1651 | lrm: 1.00 | dt: 36.34ms | tok/sec: 14,089 | mfu: 0.08 | total time: 0.01m
+step 00028/00050 (56.00%) | loss: 8.196987 | grad norm: 1.9647 | lrm: 1.00 | dt: 35.82ms | tok/sec: 14,293 | mfu: 0.08 | total time: 0.01m
+step 00029/00050 (58.00%) | loss: 8.169137 | grad norm: 2.6191 | lrm: 1.00 | dt: 36.47ms | tok/sec: 14,037 | mfu: 0.08 | total time: 0.01m
+step 00030/00050 (60.00%) | loss: 8.226061 | grad norm: 3.8761 | lrm: 1.00 | dt: 36.07ms | tok/sec: 14,194 | mfu: 0.08 | total time: 0.01m
+step 00031/00050 (62.00%) | loss: 8.270401 | grad norm: 2.9811 | lrm: 1.00 | dt: 36.00ms | tok/sec: 14,222 | mfu: 0.08 | total time: 0.01m
+step 00032/00050 (64.00%) | loss: 8.315107 | grad norm: 2.2707 | lrm: 1.00 | dt: 36.44ms | tok/sec: 14,050 | mfu: 0.08 | total time: 0.01m
+step 00033/00050 (66.00%) | loss: 8.318110 | grad norm: 1.6684 | lrm: 1.00 | dt: 35.31ms | tok/sec: 14,499 | mfu: 0.08 | total time: 0.01m
+step 00034/00050 (68.00%) | loss: 8.294897 | grad norm: 2.0043 | lrm: 1.00 | dt: 35.67ms | tok/sec: 14,353 | mfu: 0.08 | total time: 0.01m
+step 00035/00050 (70.00%) | loss: 8.237246 | grad norm: 1.8259 | lrm: 1.00 | dt: 35.52ms | tok/sec: 14,414 | mfu: 0.08 | total time: 0.01m
+step 00036/00050 (72.00%) | loss: 8.204993 | grad norm: 4.6216 | lrm: 1.00 | dt: 35.30ms | tok/sec: 14,505 | mfu: 0.08 | total time: 0.02m
+step 00037/00050 (74.00%) | loss: 8.123266 | grad norm: 2.3321 | lrm: 1.00 | dt: 36.12ms | tok/sec: 14,174 | mfu: 0.08 | total time: 0.02m
+step 00038/00050 (76.00%) | loss: 8.015401 | grad norm: 2.6935 | lrm: 1.00 | dt: 35.90ms | tok/sec: 14,261 | mfu: 0.08 | total time: 0.02m
+step 00039/00050 (78.00%) | loss: 7.924185 | grad norm: 2.0078 | lrm: 1.00 | dt: 35.98ms | tok/sec: 14,230 | mfu: 0.08 | total time: 0.02m
+step 00040/00050 (80.00%) | loss: 7.734376 | grad norm: 2.2645 | lrm: 1.00 | dt: 35.24ms | tok/sec: 14,530 | mfu: 0.08 | total time: 0.02m
+step 00041/00050 (82.00%) | loss: 7.654201 | grad norm: 2.1338 | lrm: 0.90 | dt: 36.71ms | tok/sec: 13,949 | mfu: 0.08 | total time: 0.02m
+step 00042/00050 (84.00%) | loss: 7.750380 | grad norm: 3.9250 | lrm: 0.80 | dt: 35.58ms | tok/sec: 14,390 | mfu: 0.08 | total time: 0.02m
+step 00043/00050 (86.00%) | loss: 7.804991 | grad norm: 3.3919 | lrm: 0.70 | dt: 36.13ms | tok/sec: 14,169 | mfu: 0.08 | total time: 0.02m
+step 00044/00050 (88.00%) | loss: 7.845863 | grad norm: 2.7503 | lrm: 0.60 | dt: 35.98ms | tok/sec: 14,228 | mfu: 0.08 | total time: 0.02m
+step 00045/00050 (90.00%) | loss: 7.909272 | grad norm: 2.6564 | lrm: 0.50 | dt: 35.94ms | tok/sec: 14,247 | mfu: 0.08 | total time: 0.02m
+step 00046/00050 (92.00%) | loss: 7.985453 | grad norm: 2.7294 | lrm: 0.40 | dt: 36.03ms | tok/sec: 14,211 | mfu: 0.08 | total time: 0.02m
+step 00047/00050 (94.00%) | loss: 8.168300 | grad norm: 6.7631 | lrm: 0.30 | dt: 36.19ms | tok/sec: 14,149 | mfu: 0.08 | total time: 0.02m
+step 00048/00050 (96.00%) | loss: 8.243270 | grad norm: 3.1063 | lrm: 0.20 | dt: 36.42ms | tok/sec: 14,056 | mfu: 0.08 | total time: 0.02m
+step 00049/00050 (98.00%) | loss: 8.303486 | grad norm: 3.1558 | lrm: 0.10 | dt: 36.35ms | tok/sec: 14,086 | mfu: 0.08 | total time: 0.02m
+Step 00050 | Validation bpb: 2.2890
+Evaluating: hellaswag_zeroshot (0-shot, type: multiple_choice)... accuracy: 0.3636 | centered: 0.1515 | time: 0.47s
+Evaluating: jeopardy (10-shot, type: language_modeling)... accuracy: 0.0000 | centered: 0.0000 | time: 0.23s
+Evaluating: bigbench_qa_wikidata (10-shot, type: language_modeling)... accuracy: 0.0000 | centered: 0.0000 | time: 0.15s
+Evaluating: arc_easy (10-shot, type: multiple_choice)... accuracy: 0.0909 | centered: -0.2121 | time: 0.89s
+Evaluating: arc_challenge (10-shot, type: multiple_choice)... accuracy: 0.0909 | centered: -0.2121 | time: 1.05s
+Evaluating: copa (0-shot, type: multiple_choice)... accuracy: 0.5455 | centered: 0.0909 | time: 0.23s
+Evaluating: commonsense_qa (10-shot, type: multiple_choice)... accuracy: 0.0909 | centered: -0.1364 | time: 1.11s
+Evaluating: piqa (10-shot, type: multiple_choice)... accuracy: 0.3636 | centered: -0.2727 | time: 0.56s
+Evaluating: openbook_qa (0-shot, type: multiple_choice)... accuracy: 0.2727 | centered: 0.0303 | time: 0.23s
+Evaluating: lambada_openai (0-shot, type: language_modeling)... accuracy: 0.0000 | centered: 0.0000 | time: 0.25s
+Evaluating: hellaswag (10-shot, type: multiple_choice)... accuracy: 0.3636 | centered: 0.1515 | time: 3.52s
+Evaluating: winograd (0-shot, type: schema)... accuracy: 0.6364 | centered: 0.2727 | time: 0.28s
+Evaluating: winogrande (0-shot, type: schema)... accuracy: 0.4545 | centered: -0.0909 | time: 0.15s
+Evaluating: bigbench_dyck_languages (10-shot, type: language_modeling)... accuracy: 0.0000 | centered: 0.0000 | time: 0.32s
+Evaluating: agi_eval_lsat_ar (3-shot, type: multiple_choice)... accuracy: 0.0909 | centered: -0.1364 | time: 2.13s
+Evaluating: bigbench_cs_algorithms (10-shot, type: language_modeling)... accuracy: 0.0000 | centered: 0.0000 | time: 0.34s
+Evaluating: bigbench_operators (10-shot, type: language_modeling)... accuracy: 0.0000 | centered: 0.0000 | time: 0.28s
+Evaluating: bigbench_repeat_copy_logic (10-shot, type: language_modeling)... accuracy: 0.0000 | centered: 0.0000 | time: 0.37s
+Evaluating: squad (10-shot, type: language_modeling)... accuracy: 0.0000 | centered: 0.0000 | time: 1.20s
+Evaluating: coqa (0-shot, type: language_modeling)... accuracy: 0.0000 | centered: 0.0000 | time: 0.49s
+Evaluating: boolq (10-shot, type: multiple_choice)... accuracy: 0.3636 | centered: -0.6746 | time: 2.01s
+Evaluating: bigbench_language_identification (10-shot, type: multiple_choice)... accuracy: 0.0909 | centered: -0.0001 | time: 3.75s
+Step 00050 | CORE metric: -0.0472
+<|bos|>The capital of France is a ‘campus reidi. C., & Souza-Santos,
+<|bos|>The chemical symbol of gold is a ‘campus reidi. C., & Souza-Santos,
+<|bos|>If yesterday was Friday, then tomorrow will beisbe biminiensis, 2016-4), 2016-
+<|bos|>The opposite of hot is a ‘campus reidi. C., & Souza-Santos,
+<|bos|>The planets of the solar system are: Harpacticoid copepod Tisbe biminiensis, 2016
+<|bos|>My favorite color is a ‘campus reidi. C., & Souza-Santos,
+<|bos|>If 5*x + 3 = 13, then x is a ‘. P., & Souza-Santos, 2016).
+2025-11-15 10:30:50,696 - nanochat.checkpoint_manager - INFO - Saved model parameters to: /Users/dev/.cache/nanochat/base_checkpoints/d2/model_000050.pt
+2025-11-15 10:30:50,703 - nanochat.checkpoint_manager - INFO - Saved metadata to: /Users/dev/.cache/nanochat/base_checkpoints/d2/meta_000050.json
+2025-11-15 10:30:50,801 - nanochat.checkpoint_manager - INFO - Saved optimizer state to: /Users/dev/.cache/nanochat/base_checkpoints/d2/optim_000050_rank0.pt
+Peak memory usage: 0.00MiB
+Total training time: 0.02m
+Minimum validation bpb: 2.2890
+Overriding: device_batch_size = 1
+Overriding: split_tokens = 4096
+Autodetected device type: mps
+2025-11-15 10:30:54,064 - nanochat.common - INFO - Distributed world size: 1
+2025-11-15 10:30:54,064 - nanochat.checkpoint_manager - INFO - No model tag provided, guessing model tag: d4
+2025-11-15 10:30:54,064 - nanochat.checkpoint_manager - INFO - Loading model from /Users/dev/.cache/nanochat/base_checkpoints/d4 with step 50
+2025-11-15 10:30:54,162 - nanochat.checkpoint_manager - INFO - Building model with config: {'sequence_len': 512, 'vocab_size': 65536, 'n_layer': 4, 'n_head': 2, 'n_kv_head': 2, 'n_embd': 256}
+train bpb: 1.9322
+val bpb: 2.2779
+<|bos|>The capital of France is a the 2016-4-4-4-4-4-
+<|bos|>The chemical symbol of gold is a the 2016-4-4-4-4-4-
+<|bos|>If yesterday was Friday, then tomorrow will be also the 2016-4-4-4-4-4-
+<|bos|>The opposite of hot is a the 2016-4-4-4-4-4-
+<|bos|>The planets of the solar system are: Harpacticoid copepod 4-4-4-4-4
+<|bos|>My favorite color is a the 2016-4-4-4-4-4-
+<|bos|>If 5*x + 3 = 13, then x is a tropical and use of the currentampus reidi. P., & Souza
+Autodetected device type: mps
+2025-11-15 10:30:56,784 - nanochat.common - INFO - Distributed world size: 1
+2025-11-15 10:30:56,785 - nanochat.checkpoint_manager - INFO - No model tag provided, guessing model tag: d4
+2025-11-15 10:30:56,785 - nanochat.checkpoint_manager - INFO - Loading model from /Users/dev/.cache/nanochat/base_checkpoints/d4 with step 50
+2025-11-15 10:30:56,828 - nanochat.checkpoint_manager - INFO - Building model with config: {'sequence_len': 512, 'vocab_size': 65536, 'n_layer': 4, 'n_head': 2, 'n_kv_head': 2, 'n_embd': 256}
+Evaluating: hellaswag_zeroshot (0-shot, type: multiple_choice)... accuracy: 0.3125 | centered: 0.0833 | time: 0.70s
+Evaluating: jeopardy (10-shot, type: language_modeling)... accuracy: 0.0000 | centered: 0.0000 | time: 0.53s
+Evaluating: bigbench_qa_wikidata (10-shot, type: language_modeling)... accuracy: 0.0000 | centered: 0.0000 | time: 0.36s
+Evaluating: arc_easy (10-shot, type: multiple_choice)... accuracy: 0.1875 | centered: -0.0833 | time: 2.05s
+Evaluating: arc_challenge (10-shot, type: multiple_choice)... accuracy: 0.2500 | centered: 0.0000 | time: 2.20s
+Evaluating: copa (0-shot, type: multiple_choice)... accuracy: 0.6250 | centered: 0.2500 | time: 0.28s
+Evaluating: commonsense_qa (10-shot, type: multiple_choice)... accuracy: 0.1250 | centered: -0.0938 | time: 2.50s
+Evaluating: piqa (10-shot, type: multiple_choice)... accuracy: 0.5000 | centered: 0.0000 | time: 1.49s
+Evaluating: openbook_qa (0-shot, type: multiple_choice)... accuracy: 0.2500 | centered: 0.0000 | time: 0.41s
+Evaluating: lambada_openai (0-shot, type: language_modeling)... accuracy: 0.0000 | centered: 0.0000 | time: 0.44s
+Evaluating: hellaswag (10-shot, type: multiple_choice)... accuracy: 0.3125 | centered: 0.0833 | time: 7.50s
+Evaluating: winograd (0-shot, type: schema)... accuracy: 0.5000 | centered: 0.0000 | time: 0.29s
+Evaluating: winogrande (0-shot, type: schema)... accuracy: 0.5625 | centered: 0.1250 | time: 0.14s
+Evaluating: bigbench_dyck_languages (10-shot, type: language_modeling)... accuracy: 0.0000 | centered: 0.0000 | time: 0.80s
+Evaluating: agi_eval_lsat_ar (3-shot, type: multiple_choice)... accuracy: 0.0625 | centered: -0.1719 | time: 4.59s
+Evaluating: bigbench_cs_algorithms (10-shot, type: language_modeling)... accuracy: 0.0000 | centered: 0.0000 | time: 0.85s
+Evaluating: bigbench_operators (10-shot, type: language_modeling)... accuracy: 0.0000 | centered: 0.0000 | time: 0.66s
+Evaluating: bigbench_repeat_copy_logic (10-shot, type: language_modeling)... accuracy: 0.0000 | centered: 0.0000 | time: 0.81s
+Evaluating: squad (10-shot, type: language_modeling)... accuracy: 0.0000 | centered: 0.0000 | time: 3.64s
+Evaluating: coqa (0-shot, type: language_modeling)... accuracy: 0.0000 | centered: 0.0000 | time: 1.30s
+Evaluating: boolq (10-shot, type: multiple_choice)... accuracy: 0.4375 | centered: -0.4803 | time: 6.00s
+Evaluating: bigbench_language_identification (10-shot, type: multiple_choice)... accuracy: 0.3750 | centered: 0.3124 | time: 12.37s
+================================================================================
+Model: base_model (step 50)
+================================================================================
+Task                               , Accuracy  , Centered
+hellaswag_zeroshot                 , 0.312500  , 0.083333
+jeopardy                           , 0.000000  , 0.000000
+bigbench_qa_wikidata               , 0.000000  , 0.000000
+arc_easy                           , 0.187500  , -0.083333
+arc_challenge                      , 0.250000  , 0.000000
+copa                               , 0.625000  , 0.250000
+commonsense_qa                     , 0.125000  , -0.093750
+piqa                               , 0.500000  , 0.000000
+openbook_qa                        , 0.250000  , 0.000000
+lambada_openai                     , 0.000000  , 0.000000
+hellaswag                          , 0.312500  , 0.083333
+winograd                           , 0.500000  , 0.000000
+winogrande                         , 0.562500  , 0.125000
+bigbench_dyck_languages            , 0.000000  , 0.000000
+agi_eval_lsat_ar                   , 0.062500  , -0.171875
+bigbench_cs_algorithms             , 0.000000  , 0.000000
+bigbench_operators                 , 0.000000  , 0.000000
+bigbench_repeat_copy_logic         , 0.000000  , 0.000000
+squad                              , 0.000000  , 0.000000
+coqa                               , 0.000000  , 0.000000
+boolq                              , 0.437500  , -0.480263
+bigbench_language_identification   , 0.375000  , 0.312431
+CORE                               ,           , 0.001131
+
+MIDTRAINING
+Overriding: max_seq_len = 512
+Overriding: device_batch_size = 1
+Overriding: eval_every = 50
+Overriding: eval_tokens = 2048
+Overriding: total_batch_size = 512
+Overriding: num_iterations = 100
+Autodetected device type: mps
+2025-11-15 10:31:54,661 - nanochat.common - INFO - Distributed world size: 1
+2025-11-15 10:31:54,662 - nanochat.checkpoint_manager - INFO - No model tag provided, guessing model tag: d4
+2025-11-15 10:31:54,662 - nanochat.checkpoint_manager - INFO - Loading model from /Users/dev/.cache/nanochat/base_checkpoints/d4 with step 50
+2025-11-15 10:31:54,766 - nanochat.checkpoint_manager - INFO - Building model with config: {'sequence_len': 512, 'vocab_size': 65536, 'n_layer': 4, 'n_head': 2, 'n_kv_head': 2, 'n_embd': 256}
+Tokens / micro-batch / rank: 1 x 512 = 512
+Tokens / micro-batch: 512
+Total batch size 512 => gradient accumulation steps: 1
+Scaling the LR for the AdamW parameters ∝1/√(256/768) = 1.732051
+Step 00000 | Validation bpb: 2.5146
+step 00001 (2.00%) | loss: 4.340131 | lrm: 1.00 | dt: 706.33ms | tok/sec: 724 | mfu: 0.01 | total time: 0.00m
+step 00002 (3.00%) | loss: 5.390270 | lrm: 1.00 | dt: 56.76ms | tok/sec: 9,019 | mfu: 0.11 | total time: 0.00m
+step 00003 (4.00%) | loss: 5.892810 | lrm: 1.00 | dt: 54.57ms | tok/sec: 9,381 | mfu: 0.12 | total time: 0.00m
+step 00004 (5.00%) | loss: 6.660366 | lrm: 1.00 | dt: 54.68ms | tok/sec: 9,363 | mfu: 0.12 | total time: 0.00m
+step 00005 (6.00%) | loss: 7.004087 | lrm: 1.00 | dt: 54.89ms | tok/sec: 9,327 | mfu: 0.12 | total time: 0.00m
+step 00006 (7.00%) | loss: 7.090894 | lrm: 1.00 | dt: 56.77ms | tok/sec: 9,018 | mfu: 0.11 | total time: 0.00m
+step 00007 (8.00%) | loss: 7.234643 | lrm: 1.00 | dt: 54.98ms | tok/sec: 9,312 | mfu: 0.12 | total time: 0.00m
+step 00008 (9.00%) | loss: 7.250415 | lrm: 1.00 | dt: 55.03ms | tok/sec: 9,304 | mfu: 0.12 | total time: 0.00m
+step 00009 (10.00%) | loss: 7.404232 | lrm: 1.00 | dt: 55.49ms | tok/sec: 9,227 | mfu: 0.12 | total time: 0.00m
+step 00010 (11.00%) | loss: 7.409246 | lrm: 1.00 | dt: 55.81ms | tok/sec: 9,174 | mfu: 0.12 | total time: 0.00m
+step 00011 (12.00%) | loss: 7.354004 | lrm: 1.00 | dt: 55.17ms | tok/sec: 9,280 | mfu: 0.12 | total time: 0.00m
+step 00012 (13.00%) | loss: 7.362676 | lrm: 1.00 | dt: 54.82ms | tok/sec: 9,340 | mfu: 0.12 | total time: 0.00m
+step 00013 (14.00%) | loss: 7.313447 | lrm: 1.00 | dt: 55.26ms | tok/sec: 9,265 | mfu: 0.12 | total time: 0.00m
+step 00014 (15.00%) | loss: 7.315630 | lrm: 1.00 | dt: 55.59ms | tok/sec: 9,210 | mfu: 0.12 | total time: 0.00m
+step 00015 (16.00%) | loss: 7.262755 | lrm: 1.00 | dt: 54.77ms | tok/sec: 9,348 | mfu: 0.12 | total time: 0.00m
+step 00016 (17.00%) | loss: 7.163905 | lrm: 1.00 | dt: 55.08ms | tok/sec: 9,295 | mfu: 0.12 | total time: 0.01m
+step 00017 (18.00%) | loss: 7.100490 | lrm: 1.00 | dt: 55.05ms | tok/sec: 9,301 | mfu: 0.12 | total time: 0.01m
+step 00018 (19.00%) | loss: 7.023351 | lrm: 1.00 | dt: 55.10ms | tok/sec: 9,292 | mfu: 0.12 | total time: 0.01m
+step 00019 (20.00%) | loss: 6.985501 | lrm: 1.00 | dt: 54.86ms | tok/sec: 9,332 | mfu: 0.12 | total time: 0.01m
+step 00020 (21.00%) | loss: 6.902249 | lrm: 1.00 | dt: 55.10ms | tok/sec: 9,292 | mfu: 0.12 | total time: 0.01m
+step 00021 (22.00%) | loss: 6.961313 | lrm: 1.00 | dt: 54.95ms | tok/sec: 9,317 | mfu: 0.12 | total time: 0.01m
+step 00022 (23.00%) | loss: 7.008484 | lrm: 1.00 | dt: 55.78ms | tok/sec: 9,178 | mfu: 0.12 | total time: 0.01m
+step 00023 (24.00%) | loss: 6.848241 | lrm: 1.00 | dt: 55.97ms | tok/sec: 9,147 | mfu: 0.12 | total time: 0.01m
+step 00024 (25.00%) | loss: 6.733469 | lrm: 1.00 | dt: 54.59ms | tok/sec: 9,378 | mfu: 0.12 | total time: 0.01m
+step 00025 (26.00%) | loss: 6.741124 | lrm: 1.00 | dt: 55.23ms | tok/sec: 9,270 | mfu: 0.12 | total time: 0.01m
+step 00026 (27.00%) | loss: 6.717228 | lrm: 1.00 | dt: 54.93ms | tok/sec: 9,320 | mfu: 0.12 | total time: 0.01m
+step 00027 (28.00%) | loss: 6.722170 | lrm: 1.00 | dt: 55.25ms | tok/sec: 9,267 | mfu: 0.12 | total time: 0.02m
+step 00028 (29.00%) | loss: 6.724649 | lrm: 1.00 | dt: 55.17ms | tok/sec: 9,280 | mfu: 0.12 | total time: 0.02m
+step 00029 (30.00%) | loss: 6.716048 | lrm: 1.00 | dt: 55.01ms | tok/sec: 9,307 | mfu: 0.12 | total time: 0.02m
+step 00030 (31.00%) | loss: 6.755735 | lrm: 1.00 | dt: 54.94ms | tok/sec: 9,318 | mfu: 0.12 | total time: 0.02m
+step 00031 (32.00%) | loss: 6.756700 | lrm: 1.00 | dt: 55.10ms | tok/sec: 9,292 | mfu: 0.12 | total time: 0.02m
+step 00032 (33.00%) | loss: 6.732012 | lrm: 1.00 | dt: 54.75ms | tok/sec: 9,352 | mfu: 0.12 | total time: 0.02m
+step 00033 (34.00%) | loss: 6.783008 | lrm: 1.00 | dt: 56.75ms | tok/sec: 9,021 | mfu: 0.11 | total time: 0.02m
+step 00034 (35.00%) | loss: 6.796301 | lrm: 1.00 | dt: 54.25ms | tok/sec: 9,438 | mfu: 0.12 | total time: 0.02m
+step 00035 (36.00%) | loss: 6.913871 | lrm: 1.00 | dt: 54.64ms | tok/sec: 9,370 | mfu: 0.12 | total time: 0.02m
+step 00036 (37.00%) | loss: 6.964836 | lrm: 1.00 | dt: 56.20ms | tok/sec: 9,110 | mfu: 0.12 | total time: 0.02m
+step 00037 (38.00%) | loss: 6.870190 | lrm: 1.00 | dt: 55.33ms | tok/sec: 9,253 | mfu: 0.12 | total time: 0.02m
+step 00038 (39.00%) | loss: 6.851292 | lrm: 1.00 | dt: 56.47ms | tok/sec: 9,066 | mfu: 0.12 | total time: 0.03m
+step 00039 (40.00%) | loss: 6.870806 | lrm: 1.00 | dt: 56.12ms | tok/sec: 9,122 | mfu: 0.12 | total time: 0.03m
+step 00040 (41.00%) | loss: 7.002000 | lrm: 1.00 | dt: 55.07ms | tok/sec: 9,296 | mfu: 0.12 | total time: 0.03m
+step 00041 (42.00%) | loss: 7.047240 | lrm: 1.00 | dt: 55.15ms | tok/sec: 9,284 | mfu: 0.12 | total time: 0.03m
+step 00042 (43.00%) | loss: 7.022882 | lrm: 1.00 | dt: 54.85ms | tok/sec: 9,333 | mfu: 0.12 | total time: 0.03m
+step 00043 (44.00%) | loss: 7.039252 | lrm: 1.00 | dt: 55.11ms | tok/sec: 9,290 | mfu: 0.12 | total time: 0.03m
+step 00044 (45.00%) | loss: 7.004975 | lrm: 1.00 | dt: 55.13ms | tok/sec: 9,287 | mfu: 0.12 | total time: 0.03m
+step 00045 (46.00%) | loss: 6.946181 | lrm: 1.00 | dt: 56.44ms | tok/sec: 9,071 | mfu: 0.12 | total time: 0.03m
+step 00046 (47.00%) | loss: 6.929275 | lrm: 1.00 | dt: 54.88ms | tok/sec: 9,329 | mfu: 0.12 | total time: 0.03m
+step 00047 (48.00%) | loss: 6.934621 | lrm: 1.00 | dt: 54.79ms | tok/sec: 9,344 | mfu: 0.12 | total time: 0.03m
+step 00048 (49.00%) | loss: 6.976266 | lrm: 1.00 | dt: 54.83ms | tok/sec: 9,337 | mfu: 0.12 | total time: 0.03m
+step 00049 (50.00%) | loss: 6.893469 | lrm: 1.00 | dt: 56.45ms | tok/sec: 9,069 | mfu: 0.12 | total time: 0.04m
+step 00050 (51.00%) | loss: 6.872062 | lrm: 1.00 | dt: 55.57ms | tok/sec: 9,214 | mfu: 0.12 | total time: 0.04m
+Step 00050 | Validation bpb: 2.3501
+step 00051 (52.00%) | loss: 6.787106 | lrm: 1.00 | dt: 54.83ms | tok/sec: 9,337 | mfu: 0.12 | total time: 0.04m
+step 00052 (53.00%) | loss: 6.680745 | lrm: 1.00 | dt: 54.74ms | tok/sec: 9,352 | mfu: 0.12 | total time: 0.04m
+step 00053 (54.00%) | loss: 6.569880 | lrm: 1.00 | dt: 55.04ms | tok/sec: 9,302 | mfu: 0.12 | total time: 0.04m
+step 00054 (55.00%) | loss: 6.383429 | lrm: 1.00 | dt: 55.75ms | tok/sec: 9,184 | mfu: 0.12 | total time: 0.04m
+step 00055 (56.00%) | loss: 6.218231 | lrm: 1.00 | dt: 55.11ms | tok/sec: 9,291 | mfu: 0.12 | total time: 0.04m
+step 00056 (57.00%) | loss: 6.374829 | lrm: 1.00 | dt: 55.18ms | tok/sec: 9,278 | mfu: 0.12 | total time: 0.04m
+step 00057 (58.00%) | loss: 6.525401 | lrm: 1.00 | dt: 55.75ms | tok/sec: 9,184 | mfu: 0.12 | total time: 0.04m
+step 00058 (59.00%) | loss: 6.595647 | lrm: 1.00 | dt: 54.83ms | tok/sec: 9,338 | mfu: 0.12 | total time: 0.04m
+step 00059 (60.00%) | loss: 6.604824 | lrm: 1.00 | dt: 55.00ms | tok/sec: 9,309 | mfu: 0.12 | total time: 0.05m
+step 00060 (61.00%) | loss: 6.637410 | lrm: 1.00 | dt: 55.21ms | tok/sec: 9,273 | mfu: 0.12 | total time: 0.05m
+step 00061 (62.00%) | loss: 6.687745 | lrm: 1.00 | dt: 55.23ms | tok/sec: 9,270 | mfu: 0.12 | total time: 0.05m
+step 00062 (63.00%) | loss: 6.618053 | lrm: 1.00 | dt: 55.36ms | tok/sec: 9,247 | mfu: 0.12 | total time: 0.05m
+step 00063 (64.00%) | loss: 6.618998 | lrm: 1.00 | dt: 55.33ms | tok/sec: 9,253 | mfu: 0.12 | total time: 0.05m
+step 00064 (65.00%) | loss: 6.716255 | lrm: 1.00 | dt: 55.35ms | tok/sec: 9,250 | mfu: 0.12 | total time: 0.05m
+step 00065 (66.00%) | loss: 6.772267 | lrm: 1.00 | dt: 55.04ms | tok/sec: 9,303 | mfu: 0.12 | total time: 0.05m
+step 00066 (67.00%) | loss: 6.843378 | lrm: 1.00 | dt: 56.75ms | tok/sec: 9,021 | mfu: 0.11 | total time: 0.05m
+step 00067 (68.00%) | loss: 6.866843 | lrm: 1.00 | dt: 54.51ms | tok/sec: 9,393 | mfu: 0.12 | total time: 0.05m
+step 00068 (69.00%) | loss: 6.837714 | lrm: 1.00 | dt: 54.58ms | tok/sec: 9,381 | mfu: 0.12 | total time: 0.05m
+step 00069 (70.00%) | loss: 6.779839 | lrm: 1.00 | dt: 55.16ms | tok/sec: 9,282 | mfu: 0.12 | total time: 0.05m
+step 00070 (71.00%) | loss: 6.734719 | lrm: 1.00 | dt: 55.08ms | tok/sec: 9,296 | mfu: 0.12 | total time: 0.06m
+step 00071 (72.00%) | loss: 6.664408 | lrm: 1.00 | dt: 54.99ms | tok/sec: 9,311 | mfu: 0.12 | total time: 0.06m
+step 00072 (73.00%) | loss: 6.744076 | lrm: 1.00 | dt: 55.17ms | tok/sec: 9,281 | mfu: 0.12 | total time: 0.06m
+step 00073 (74.00%) | loss: 6.685512 | lrm: 1.00 | dt: 54.92ms | tok/sec: 9,323 | mfu: 0.12 | total time: 0.06m
+step 00074 (75.00%) | loss: 6.625341 | lrm: 1.00 | dt: 55.28ms | tok/sec: 9,261 | mfu: 0.12 | total time: 0.06m
+step 00075 (76.00%) | loss: 6.581571 | lrm: 1.00 | dt: 55.37ms | tok/sec: 9,246 | mfu: 0.12 | total time: 0.06m
+step 00076 (77.00%) | loss: 6.593583 | lrm: 1.00 | dt: 55.00ms | tok/sec: 9,309 | mfu: 0.12 | total time: 0.06m
+step 00077 (78.00%) | loss: 6.697629 | lrm: 1.00 | dt: 54.66ms | tok/sec: 9,366 | mfu: 0.12 | total time: 0.06m
+step 00078 (79.00%) | loss: 6.795235 | lrm: 1.00 | dt: 55.03ms | tok/sec: 9,304 | mfu: 0.12 | total time: 0.06m
+step 00079 (80.00%) | loss: 6.820909 | lrm: 1.00 | dt: 54.97ms | tok/sec: 9,314 | mfu: 0.12 | total time: 0.06m
+step 00080 (81.00%) | loss: 6.875737 | lrm: 0.95 | dt: 54.85ms | tok/sec: 9,334 | mfu: 0.12 | total time: 0.06m
+step 00081 (82.00%) | loss: 6.880044 | lrm: 0.90 | dt: 55.16ms | tok/sec: 9,282 | mfu: 0.12 | total time: 0.07m
+step 00082 (83.00%) | loss: 6.736136 | lrm: 0.85 | dt: 55.39ms | tok/sec: 9,243 | mfu: 0.12 | total time: 0.07m
+step 00083 (84.00%) | loss: 6.749708 | lrm: 0.80 | dt: 54.72ms | tok/sec: 9,357 | mfu: 0.12 | total time: 0.07m
+step 00084 (85.00%) | loss: 6.560689 | lrm: 0.75 | dt: 54.75ms | tok/sec: 9,352 | mfu: 0.12 | total time: 0.07m
+step 00085 (86.00%) | loss: 6.526389 | lrm: 0.70 | dt: 54.83ms | tok/sec: 9,338 | mfu: 0.12 | total time: 0.07m
+step 00086 (87.00%) | loss: 6.430254 | lrm: 0.65 | dt: 54.92ms | tok/sec: 9,322 | mfu: 0.12 | total time: 0.07m
+step 00087 (88.00%) | loss: 6.415798 | lrm: 0.60 | dt: 55.77ms | tok/sec: 9,180 | mfu: 0.12 | total time: 0.07m
+step 00088 (89.00%) | loss: 6.439668 | lrm: 0.55 | dt: 55.46ms | tok/sec: 9,231 | mfu: 0.12 | total time: 0.07m
+step 00089 (90.00%) | loss: 6.385474 | lrm: 0.50 | dt: 55.17ms | tok/sec: 9,280 | mfu: 0.12 | total time: 0.07m
+step 00090 (91.00%) | loss: 6.462293 | lrm: 0.45 | dt: 54.81ms | tok/sec: 9,341 | mfu: 0.12 | total time: 0.07m
+step 00091 (92.00%) | loss: 6.547717 | lrm: 0.40 | dt: 55.55ms | tok/sec: 9,217 | mfu: 0.12 | total time: 0.07m
+step 00092 (93.00%) | loss: 6.586696 | lrm: 0.35 | dt: 55.22ms | tok/sec: 9,272 | mfu: 0.12 | total time: 0.08m
+step 00093 (94.00%) | loss: 6.617697 | lrm: 0.30 | dt: 54.71ms | tok/sec: 9,358 | mfu: 0.12 | total time: 0.08m
+step 00094 (95.00%) | loss: 6.666764 | lrm: 0.25 | dt: 55.06ms | tok/sec: 9,298 | mfu: 0.12 | total time: 0.08m
+step 00095 (96.00%) | loss: 6.673174 | lrm: 0.20 | dt: 55.90ms | tok/sec: 9,158 | mfu: 0.12 | total time: 0.08m
+step 00096 (97.00%) | loss: 6.535730 | lrm: 0.15 | dt: 55.19ms | tok/sec: 9,277 | mfu: 0.12 | total time: 0.08m
+step 00097 (98.00%) | loss: 6.555624 | lrm: 0.10 | dt: 54.77ms | tok/sec: 9,347 | mfu: 0.12 | total time: 0.08m
+step 00098 (99.00%) | loss: 6.596849 | lrm: 0.05 | dt: 54.76ms | tok/sec: 9,349 | mfu: 0.12 | total time: 0.08m
+step 00099 (100.00%) | loss: 6.611370 | lrm: 0.00 | dt: 54.99ms | tok/sec: 9,311 | mfu: 0.12 | total time: 0.08m
+Step 00099 | Validation bpb: 2.2136
+2025-11-15 10:32:12,599 - nanochat.checkpoint_manager - INFO - Saved model parameters to: /Users/dev/.cache/nanochat/mid_checkpoints/d4/model_000099.pt
+2025-11-15 10:32:12,599 - nanochat.checkpoint_manager - INFO - Saved metadata to: /Users/dev/.cache/nanochat/mid_checkpoints/d4/meta_000099.json
+2025-11-15 10:32:12,779 - nanochat.checkpoint_manager - INFO - Saved optimizer state to: /Users/dev/.cache/nanochat/mid_checkpoints/d4/optim_000099_rank0.pt
+Peak memory usage: 0.00MiB
+Total training time: 0.08m
+Minimum validation bpb: 2.2136
+Autodetected device type: mps
+2025-11-15 10:32:14,718 - nanochat.common - INFO - Distributed world size: 1
+2025-11-15 10:32:14,718 - nanochat.checkpoint_manager - INFO - No model tag provided, guessing model tag: d4
+2025-11-15 10:32:14,719 - nanochat.checkpoint_manager - INFO - Loading model from /Users/dev/.cache/nanochat/mid_checkpoints/d4 with step 99
+2025-11-15 10:32:14,766 - nanochat.checkpoint_manager - INFO - Building model with config: {'sequence_len': 512, 'vocab_size': 65536, 'n_layer': 4, 'n_head': 2, 'n_kv_head': 2, 'n_embd': 256}
+Final: 5/20 (25.00%)
+ARC-Easy accuracy: 25.00%
+Final: 5/20 (25.00%)
+ARC-Challenge accuracy: 25.00%
+Final: 4/20 (20.00%)
+MMLU accuracy: 20.00%
+Rank 0 | 0/20 (0.00%)
+==================================================
+Final: 0/20 (0.00%)
+GSM8K accuracy: 0.00%
+Rank 0 | 0/20 (0.00%)
+==================================================
+Final: 0/20 (0.00%)
+HumanEval accuracy: 0.00%
+Rank 0 | 0/20 (0.00%)
+==================================================
+Final: 0/20 (0.00%)
+SpellingBee accuracy: 0.00%
+SFT
+Overriding: device_batch_size = 1
+Overriding: target_examples_per_step = 4
+Overriding: num_iterations = 30
+Overriding: eval_steps = 4
+Overriding: eval_metrics_max_problems = 16
+Autodetected device type: mps
+2025-11-15 10:34:08,553 - nanochat.common - INFO - Distributed world size: 1
+2025-11-15 10:34:08,553 - nanochat.checkpoint_manager - INFO - No model tag provided, guessing model tag: d4
+2025-11-15 10:34:08,553 - nanochat.checkpoint_manager - INFO - Loading model from /Users/dev/.cache/nanochat/mid_checkpoints/d4 with step 99
+2025-11-15 10:34:08,601 - nanochat.checkpoint_manager - INFO - Building model with config: {'sequence_len': 512, 'vocab_size': 65536, 'n_layer': 4, 'n_head': 2, 'n_kv_head': 2, 'n_embd': 256}
+Target examples per step: 4
+Device batch size: 1
+Examples per step is device_batch_size * ddp_world_size: 1
+=> Setting grad accum steps: 4
+Scaling the LR for the AdamW parameters ∝1/√(256/768) = 1.732051
+Step 00000 | Validation loss: 6.915513
+Step 00000/00030 | Training loss: 9.055525| lrm: 1.000000| num_tokens: 2,364
+Step 00001/00030 | Training loss: 7.914919| lrm: 0.966667| num_tokens: 2,198
+Step 00002/00030 | Training loss: 6.584778| lrm: 0.933333| num_tokens: 290
+Step 00003/00030 | Training loss: 6.755302| lrm: 0.900000| num_tokens: 186
+Step 00004/00030 | Training loss: 4.394993| lrm: 0.866667| num_tokens: 2,010
+Step 00005/00030 | Training loss: 8.666405| lrm: 0.833333| num_tokens: 1,447
+Step 00006/00030 | Training loss: 6.148916| lrm: 0.800000| num_tokens: 520
+Step 00007/00030 | Training loss: 7.845349| lrm: 0.766667| num_tokens: 700
+Step 00008/00030 | Training loss: 6.536578| lrm: 0.733333| num_tokens: 3,362
+Step 00009/00030 | Training loss: 5.311394| lrm: 0.700000| num_tokens: 742
+Step 00010/00030 | Training loss: 4.394103| lrm: 0.666667| num_tokens: 2,383
+Step 00011/00030 | Training loss: 7.110179| lrm: 0.633333| num_tokens: 878
+Step 00012/00030 | Training loss: 6.505446| lrm: 0.600000| num_tokens: 2,276
+Step 00013/00030 | Training loss: 7.120823| lrm: 0.566667| num_tokens: 2,275
+Step 00014/00030 | Training loss: 6.778238| lrm: 0.533333| num_tokens: 1,466
+Step 00015/00030 | Training loss: 5.966938| lrm: 0.500000| num_tokens: 595
+Step 00016/00030 | Training loss: 2.768983| lrm: 0.466667| num_tokens: 1,508
+Step 00017/00030 | Training loss: 4.119557| lrm: 0.433333| num_tokens: 646
+Step 00018/00030 | Training loss: 6.831231| lrm: 0.400000| num_tokens: 500
+Step 00019/00030 | Training loss: 7.309608| lrm: 0.366667| num_tokens: 522
+Step 00020/00030 | Training loss: 8.250854| lrm: 0.333333| num_tokens: 635
+Step 00021/00030 | Training loss: 6.970487| lrm: 0.300000| num_tokens: 2,864
+Step 00022/00030 | Training loss: 6.910279| lrm: 0.266667| num_tokens: 2,175
+Step 00023/00030 | Training loss: 7.862118| lrm: 0.233333| num_tokens: 2,444
+Step 00024/00030 | Training loss: 7.186908| lrm: 0.200000| num_tokens: 2,393
+Step 00025/00030 | Training loss: 7.062018| lrm: 0.166667| num_tokens: 1,950
+Step 00026/00030 | Training loss: 6.872412| lrm: 0.133333| num_tokens: 733
+Step 00027/00030 | Training loss: 6.807314| lrm: 0.100000| num_tokens: 649
+Step 00028/00030 | Training loss: 2.872813| lrm: 0.066667| num_tokens: 1,572
+Step 00029 | Validation loss: 6.851258
+Final: 4/16 (25.00%)
+Final: 4/16 (25.00%)
+Step 00029 | mmlu_acc: 0.250000, arc_easy_acc: 0.250000
+2025-11-15 10:34:34,159 - nanochat.checkpoint_manager - INFO - Saved model parameters to: /Users/dev/.cache/nanochat/chatsft_checkpoints/d4/model_000029.pt
+2025-11-15 10:34:34,159 - nanochat.checkpoint_manager - INFO - Saved metadata to: /Users/dev/.cache/nanochat/chatsft_checkpoints/d4/meta_000029.json
+✅ Saved model checkpoint to /Users/dev/.cache/nanochat/chatsft_checkpoints/d4
+Generating report to /Users/dev/.cache/nanochat/report/report.md
+Warning: /Users/dev/.cache/nanochat/report/chat-evaluation-sft.md does not exist, skipping
+Warning: /Users/dev/.cache/nanochat/report/chat-rl.md does not exist, skipping
+Warning: /Users/dev/.cache/nanochat/report/chat-evaluation-rl.md does not exist, skipping
+Copying report.md to current directory for convenience
